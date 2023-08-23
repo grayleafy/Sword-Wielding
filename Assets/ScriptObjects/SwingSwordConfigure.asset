@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5688225b61e7ca340b3f23f8934d2f07, type: 3}
+  m_Name: SwingSwordConfigure
+  m_EditorClassIdentifier: 
+  chargeTime: 0.2
+  attackTime: 0.3
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.8041626
+      value: 0.04953003
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  chargeClipDatas:
+  - clip: {fileID: 7400000, guid: b088f17f44dc0d946b12f672b36a0ff1, type: 2}
+    dir: {x: 1, y: 0}
+    angle: 0
+  - clip: {fileID: 7400000, guid: 22baf5350ead7f5419933f896349a7b1, type: 2}
+    dir: {x: 0, y: 1}
+    angle: 1.5707964
+  - clip: {fileID: 7400000, guid: 13420954d0c5a4a4a93a8d342babcfa0, type: 2}
+    dir: {x: -1, y: 0}
+    angle: 3.1415927
+  - clip: {fileID: 7400000, guid: 9bfc211898d95b54fa24995409126be1, type: 2}
+    dir: {x: 0, y: -1}
+    angle: 4.712389
+  - clip: {fileID: 7400000, guid: 4b552faffb421bb409a7f96ef85f96a6, type: 2}
+    dir: {x: 0.70710677, y: -0.70710677}
+    angle: 5.4977875
+  attackFromRightClips:
+  - {fileID: 7400000, guid: 3be8b2ae87e223f4d913e00df7016d0e, type: 2}
+  - {fileID: 7400000, guid: 654017881a4dc094db61861d1c17fd2d, type: 2}
+  - {fileID: 7400000, guid: 199c80cca1c08b5438b3779ad10fc1ae, type: 2}
+  attackFromUpClips:
+  - {fileID: 7400000, guid: b1f1c82086fb0e343afba91563d1a46c, type: 2}
+  - {fileID: 7400000, guid: d8d5d60dd5387924aad1c3f7e2e2634f, type: 2}
+  - {fileID: 7400000, guid: 19757026289345d428ed4ac1e8e738db, type: 2}
+  attackFromLeftClips:
+  - {fileID: 7400000, guid: e061cacf1e1d1084dada20d0aeab40d7, type: 2}
+  - {fileID: 7400000, guid: ee3d6bf929e30104ba603a336e2d4827, type: 2}
+  - {fileID: 7400000, guid: 4d39bb833517c9a4e9e4eb25570b16fb, type: 2}
+  attackFromDownToRightClips:
+  - {fileID: 7400000, guid: 1913e4b0d3aa1964abbb7e6f91203f6c, type: 2}
+  - {fileID: 7400000, guid: 13648ee9c580f074581eacb7a37576b4, type: 2}
+  - {fileID: 7400000, guid: 348eeb68e8a51e6498f9f67aa84f2ab2, type: 2}
+  attackFromDownToLeftClips:
+  - {fileID: 7400000, guid: 27e866144242bf34793a5312a6ba83a3, type: 2}
+  - {fileID: 7400000, guid: 6ee4a04a7e358084dbdd548cfee57cce, type: 2}
+  - {fileID: 7400000, guid: 5dd81b66ce24d61418f2555a5be5ed93, type: 2}

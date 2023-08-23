@@ -1,0 +1,54 @@
+{
+    "name": "HumanInput",
+    "maps": [
+        {
+            "name": "HumanAction",
+            "id": "64b0cfe1-5029-4cd9-bb2e-0eba649ce3d0",
+            "actions": [
+                {
+                    "name": "MousePos",
+                    "type": "Value",
+                    "id": "47139312-7eee-4c78-acce-64c334384606",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LockMouse",
+                    "type": "Button",
+                    "id": "ae01d945-ce55-43c2-8940-2af3c43a5923",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "55ac82fa-5b17-40ff-b290-d8fd34abafca",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a1f4c679-1df1-43af-9247-29e481fe4d5d",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LockMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
